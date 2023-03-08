@@ -4,31 +4,29 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.displayFlex{
-    display: flex;
-}
-.flexRow{
-    flex-direction: row;
-}
-.flexEnd{
-    flex-direction: row-reverse;
-}
+/* flex generic */
+.displayFlex{display: flex;}
+.flexRow{flex-direction: row;}
+.flexEnd{flex-direction: row-reverse;}
+.wrap{flex-wrap: wrap;}
+
+/* colonna temporaneo */
 .column{
     flex-direction: column;
     height: 525px;
     width: 330px;
     background-color: aqua;
 }
-.wrap{
-    flex-wrap: wrap;
-}
-.margin0Auto{
-    margin: 0 auto;
 
-}
-.marginTop{
-    margin-top: 30px;
-}
+/* margin generic */
+.margin0Auto{margin: 0 auto;}
+.marginTop{margin-top: 30px;}
+
+
+/* position generic */
+.relative{position:relative;}
+.absolute{position: absolute;}
+
 .logo{
     height: 25px;
     align-self: flex-end;
@@ -43,9 +41,8 @@
     max-width: 70vw;
     height: 1000px;
 }
-.relative{
-    position:relative;
-}
+
+
 .navbar{
     height:50px;
     background-color: #ff6900;
@@ -69,6 +66,39 @@
 .mainContainer{
     justify-content: space-between;
     align-items: center;
+}
+
+.w330px{
+    width: 330px;
+}
+.containerCuore{
+    right:0;
+    top: 30px;
+}
+
+.cuore{
+    display: inline-block;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.discountContainer{
+    bottom: 80px;
+}
+.discount{
+    font-size: small;
+    color: white;
+    padding: 5px 5px;
+    background-color: rgb(255, 39, 39);
+}
+.sostenibile{
+    font-size: small;
+    color: white;
+    display: inline-block;
+    background-color: green;
+    padding: 5px 5px;
 }
 
 
