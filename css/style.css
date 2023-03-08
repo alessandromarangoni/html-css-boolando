@@ -2,4 +2,43 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.displayFlex{
+    display: flex;
+}
+.flexRow{
+    flex-direction: row;
+}
+.flexEnd{
+    flex-direction: row-reverse;
+}
+.logo{
+    height: 25px;
+    align-self: flex-end;
+}
+
+@media (min-width: 900px) {.logo
+    {
+        transform: translate(-50%, +25%);
+    }
+}
+.relative{
+    position:relative
+}
+.navbar{
+    height:50px;
+    background-color: #ff6900;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+
+.linkHeader{
+    color: white;
+    text-decoration: none;
+    margin: 0 .5em;
+}
+.linkHeader:hover{
+    font-size: large;
 }
