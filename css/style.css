@@ -9,14 +9,7 @@
 .flexRow{flex-direction: row;}
 .flexEnd{flex-direction: row-reverse;}
 .wrap{flex-wrap: wrap;}
-
-/* colonna temporaneo */
-.column{
-    flex-direction: column;
-    min-height: 525px;
-    width: 330px;
-}
-
+.column{flex-direction: column;}
 /* margin generic */
 .margin0Auto{margin: 0 auto;}
 .marginTop{margin-top: 30px;}
@@ -25,6 +18,12 @@
 /* position generic */
 .relative{position:relative;}
 .absolute{position: absolute;}
+/* link style generic */
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 0 .5em;
+}
 
 .logo{
     height: 25px;
@@ -36,11 +35,8 @@
         transform: translate(-50%, +25%);
     }
 }
-.w80{
-    max-width: 70vw;
-    height: 150vh;
-}
-
+/* una lagrghezza del main del 80% del vw */
+.w80{max-width: 70vw;}
 
 .navbar{
     height:50px;
@@ -54,11 +50,6 @@
     z-index: 1;
 }
 
-.link{
-    color: white;
-    text-decoration: none;
-    margin: 0 .5em;
-}
 .link:hover{
     font-size: larger;
 }
@@ -74,11 +65,14 @@
     width: 330px;
     height: 480px;
 }
+.secondaImg{
+    left: 0;
+    z-index: -1;
+}
 .containerCuore{
     right:0;
     top: 30px;
 }
-
 .cuore{
     display: inline-block;
     font-size: 30px;
@@ -88,8 +82,6 @@
 .cuore:hover{
     color: red;
 }
-
-
 .discountContainer{
     bottom: 80px;
 }
@@ -114,7 +106,6 @@
     font-size: smaller;
     opacity: .5;
 }
-
 .itemName{
     font-weight: 400;
     margin: .2em 0;
@@ -128,10 +119,6 @@
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.5);
     font-size: small;
-}
-.secondaImg{
-    left: 0;
-    z-index: -1;
 }
 
 .footeRow{
