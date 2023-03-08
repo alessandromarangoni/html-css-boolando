@@ -46,7 +46,7 @@
     height:50px;
     background-color: #ff6900;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,12 +54,12 @@
     z-index: 1;
 }
 
-.linkHeader{
+.link{
     color: white;
     text-decoration: none;
     margin: 0 .5em;
 }
-.linkHeader:hover{
+.link:hover{
     font-size: large;
 }
 
@@ -130,4 +130,32 @@
 .secondaImg{
     left: 0;
     z-index: -1;
+}
+
+.footeRow{
+    height: 80px;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom:0 ;
+}
+
+h4{
+    font-size: larger;
+    color: white;
+}
+.srl{
+    text-align: center;
+}
+.findUs{
+    font-weight: bolder;
+    color: white;
+}
+
+.SocialIcon{
+    font-size: large;
+    color: beige;
 }
