@@ -13,6 +13,22 @@
 .flexEnd{
     flex-direction: row-reverse;
 }
+.column{
+    flex-direction: column;
+    height: 525px;
+    width: 330px;
+    background-color: aqua;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.margin0Auto{
+    margin: 0 auto;
+
+}
+.marginTop{
+    margin-top: 30px;
+}
 .logo{
     height: 25px;
     align-self: flex-end;
@@ -23,9 +39,12 @@
         transform: translate(-50%, +25%);
     }
 }
+.w80{
+    max-width: 70vw;
+    height: 1000px;
+}
 .relative{
     position:relative;
-    height: 4000px;
 }
 .navbar{
     height:50px;
@@ -46,4 +65,10 @@
 .linkHeader:hover{
     font-size: large;
 }
+
+.mainContainer{
+    justify-content: space-between;
+    align-items: center;
+}
+
 
