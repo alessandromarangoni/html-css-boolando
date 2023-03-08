@@ -24,14 +24,18 @@
     }
 }
 .relative{
-    position:relative
+    position:relative;
+    height: 4000px;
 }
 .navbar{
     height:50px;
     background-color: #ff6900;
     align-items: center;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .linkHeader{
@@ -42,3 +46,4 @@
 .linkHeader:hover{
     font-size: large;
 }
+
