@@ -38,7 +38,7 @@
 }
 .w80{
     max-width: 70vw;
-    height: 1000px;
+    height: 150vh;
 }
 
 
@@ -60,12 +60,14 @@
     margin: 0 .5em;
 }
 .link:hover{
-    font-size: large;
+    font-size: larger;
 }
 
 .mainContainer{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 200px;
+    margin-top: 200px;
 }
 
 .w330px{
@@ -148,6 +150,9 @@ h4{
     color: white;
 }
 .srl{
+    text-align: center;
+}
+.social{
     text-align: center;
 }
 .findUs{
