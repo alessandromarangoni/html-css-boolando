@@ -13,9 +13,8 @@
 /* colonna temporaneo */
 .column{
     flex-direction: column;
-    height: 525px;
+    min-height: 525px;
     width: 330px;
-    background-color: aqua;
 }
 
 /* margin generic */
